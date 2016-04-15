@@ -1,5 +1,5 @@
 /**
- * @version		3.0.0
+ * @version		3.1.0
  * @package		Tabs & Sliders (plugin)
  * @author    	JoomlaWorks - http://www.joomlaworks.net
  * @copyright	Copyright (c) 2006 - 2015 JoomlaWorks Ltd. All rights reserved.
@@ -290,18 +290,18 @@ if (typeof tabberOptions == 'undefined') {
 		if(isIE6) document.getElementsByTagName("body")[0].className = bodyClass + ' jwts_IsIE6';
 		if(isIE7) document.getElementsByTagName("body")[0].className = bodyClass + ' jwts_IsIE7';
 		if(isIE8) document.getElementsByTagName("body")[0].className = bodyClass + ' jwts_IsIE8';
-	
+
 		// Tabs
-		tabberAutomatic(tabberOptions);	
+		tabberAutomatic(tabberOptions);
 
 		// Sliders
 		$('.jwts_toggleContent').hide();
 		$('a.jwts_toggleControl').addClass('jwts_toggleOff');
 		$('a.jwts_toggleControl').on('click', function() {
-		
+
 			// Prevent clicks upon animation
 			if($('.jwts_toggleContent :animated').length) return false;
-		
+
 			if($(this).hasClass('jwts_toggleOn')){
 				$(this).parent().next('.jwts_toggleContent').hide();
 				$(this).removeClass('jwts_toggleOn');
@@ -312,10 +312,10 @@ if (typeof tabberOptions == 'undefined') {
 				$('a.jwts_toggleControl').removeClass('jwts_toggleOn');
 				$('a.jwts_toggleControl').addClass('jwts_toggleOff');
 				$(this).removeClass('jwts_toggleOff');
-				$(this).addClass('jwts_toggleOn');			
+				$(this).addClass('jwts_toggleOn');
 			}
 
 			return false;
-		});	
+		});
 	});
 })(jQuery);

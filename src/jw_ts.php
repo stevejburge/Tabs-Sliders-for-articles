@@ -1,6 +1,6 @@
 <?php
 /**
- * @version		3.0.0
+ * @version		3.1.0
  * @package		Tabs & Sliders (plugin)
  * @author    	JoomlaWorks - http://www.joomlaworks.net
  * @copyright	Copyright (c) 2006 - 2015 JoomlaWorks Ltd. All rights reserved.
@@ -14,8 +14,8 @@ class plgContentJw_ts extends JPlugin {
 
 	// JoomlaWorks reference parameters
 	var $plg_name				= "jw_ts";
-	var $plg_copyrights_start	= "\n\n<!-- JoomlaWorks \"Tabs & Sliders\" Plugin (v3.0.0) starts here -->\n";
-	var $plg_copyrights_end		= "\n<!-- JoomlaWorks \"Tabs & Sliders\" Plugin (v3.0.0) ends here -->\n\n";
+	var $plg_copyrights_start	= "\n\n<!-- JoomlaWorks \"Tabs & Sliders\" Plugin (v3.1.0) starts here -->\n";
+	var $plg_copyrights_end		= "\n<!-- JoomlaWorks \"Tabs & Sliders\" Plugin (v3.1.0) ends here -->\n\n";
 
 	// Load the plugin language file
 	protected $autoloadLanguage = true;

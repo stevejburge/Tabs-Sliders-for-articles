@@ -5,9 +5,9 @@
 	<authorEmail>please-use-the-contact-form@joomlaworks.net</authorEmail>
 	<authorUrl>http://www.joomlaworks.net</authorUrl>
 	<copyright>Copyright (c) 2006 - 2015 JoomlaWorks Ltd. All rights reserved.</copyright>
-	<creationDate>January 18th, 2015</creationDate>
+	<creationDate>April 14, 2016</creationDate>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
-	<version>3.0.0</version>
+	<version>3.1.0</version>
 	<description>JW_PLG_TS_XML_DESC</description>
 	<config>
 		<fields name="params">
@@ -30,6 +30,6 @@
 		<language tag="en-GB">language/en-GB/en-GB.plg_content_jw_ts.sys.ini</language>
 	</languages>
 	<updateservers>
-		<server type="extension" priority="1" name="Tabs &amp; Sliders [for articles]">http://www.joomlaworks.net/updates/jw_ts_plugin.xml</server>
-	</updateservers>
+        <server type="extension" priority="1" name="Tabs &amp; Sliders [for articles]"><![CDATA[http://deploy.ostraining.com/client/update/free/stable/plg_content_jw_ts]]></server>
+    </updateservers>
 </extension>
